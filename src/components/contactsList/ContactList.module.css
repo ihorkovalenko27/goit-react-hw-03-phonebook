@@ -1,0 +1,41 @@
+.contacts {
+  width: 300px;
+  padding: 50px;
+  margin-right: auto;
+  border-radius: 7px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  background-color: rgb(235, 235, 235);
+}
+
+.contacts li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.filter input {
+  display: block;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(187, 187, 187);
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin-left: 15px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: orange;
+  border-radius: 10%;
+}
